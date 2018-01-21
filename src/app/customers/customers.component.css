@@ -1,0 +1,21 @@
+#fundo{
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+.titulo{
+    margin: 20px;
+}
+.titulo hr{
+    border-bottom: 2px solid brown;
+    width: 96%;
+    float: left;
+}
+.col-form{
+    margin-bottom: 20px;
+}
+.col-extra{
+    background-color: teal;
+    min-height: 400px;
+    color: aliceblue;
+    border-radius: 7px;
+}
