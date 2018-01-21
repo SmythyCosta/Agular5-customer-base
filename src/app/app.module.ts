@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CustomersComponent } from './customers/customers.component';
+import { ConteudoExtraComponent } from './conteudo-extra/conteudo-extra.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomersComponent
+    CustomersComponent,
+    ConteudoExtraComponent
   ],
   imports: [
     BrowserModule,
