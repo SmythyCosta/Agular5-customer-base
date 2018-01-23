@@ -33,9 +33,29 @@
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
           </section>
+
+          <section id="listar-clientes">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">NOME</th>
+                  <th scope="col">DATA CRIAÇÃO</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr *ngFor="let obj of customers">
+                  <th scope="row"> {{obj.id}} </th>
+                  <td> {{obj.name}} </td>
+                  <td> {{obj.created}} </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
       </div>
       
-      <div class="col-md-4 col-md-4 col-xs-12 col-extra">
+      <div class="col-md-4 col-md-4 col-xs-12">
           <conteudo-extra></conteudo-extra>
       </div>
       

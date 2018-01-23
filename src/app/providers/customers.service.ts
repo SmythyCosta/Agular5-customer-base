@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
-import { Http } from "@angular/http/src/http";
+import { Http } from "@angular/http";
+
 
 import { Observable } from "rxjs/Observable";
 import 'rxjs/add/operator/map';
@@ -22,7 +23,7 @@ export class CustomersService{
 
     erro(error){
         console.error(error);
-        return Observable.throw(error.json().error || 'Server error');
+        return Observable.throw(error.json().error || 'Erro ao buscar a api');
     }
     
 }

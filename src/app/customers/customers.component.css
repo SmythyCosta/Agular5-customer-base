@@ -13,9 +13,9 @@
 .col-form{
     margin-bottom: 20px;
 }
-.col-extra{
-    background-color: teal;
-    min-height: 400px;
-    color: aliceblue;
-    border-radius: 7px;
+#formulario{
+    margin-bottom: 20px;
 }
+#listar-clientes tbody{
+    color: brown;
+} 
